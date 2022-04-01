@@ -1,0 +1,51 @@
+ TOPAZ SOFTWARE: TOPOGRAPHIC PARAMETERIZATION SOFTWARE SYSTEM
+ PROGRAM RASBIN: RASTER-TO-BINARY TRANSFORMATION PROGRAM
+                 VERSION 3.10, APRIL 1999
+ 
+ J. GARBRECHT, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ L. MARTZ, UNIVERSITY OF SASKATCHEWAN, SASKATOON, CANADA.
+ J. CAMPBELL, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ 
+ 
+ TITLE OF CURRENT TOPAZ APPLICATION:
+ 
+  DATE: 23 AUGUST 1999        DEDNM VERSION 3.1
+  APPLICATION FOR TESTING AND VERIFICATION; INPUT FILE "VARIABLE".
+  TESTING AND CALIBRATION.
+ 
+ 
+ 
+ TABLE OF BINARY-NETWORK CHANNEL LINK INFORMATION AS COMPUTED BY PROGRAM RASBIN
+ 
+ 
+ 
+  NODE  STRAHLER NODE EXECUTION INFLOWS   NEXT NODE   TERRAIN    CHANNEL      DRAINAGE AREA        SLOPE * 1000
+ INDEX   ORDER   CODE SEQUENCE   INDEX   DOWNSTREAM  ELEVATION   LENGTH    UPSTREAM     DIRECT
+                                1     2    INDEX        [M]       [M]         [HA]        [HA]    DIRECT   SMOOTHED
+----------------------------------------------------------------------------------------------------------------------
+   1       2      3      4      5     6      7           8         9           10          11        12        13
+----------------------------------------------------------------------------------------------------------------------
+ 
+    1      2      2      10      2    -1      -1         1.0         -1.       49.860     -1.000    -1.000    -1.000
+    2      2      3       9      3     4       1         1.0        141.       47.973      1.887    -1.000    -1.000
+    3      1      1       8     -1    -1       2         2.0        540.        0.990      9.450    -1.000    -1.000
+    4      2      3       7      5     6       2         1.0          3.       37.532      0.001    -1.000    -1.000
+    5      1      1       6     -1    -1       4         3.0       1116.        1.620     15.480    -1.000    -1.000
+    6      2      3       5      7     8       4         1.0          3.       20.431      0.001    -1.000    -1.000
+    7      1      1       4     -1    -1       6         2.0        360.        0.990      4.320    -1.000    -1.000
+    8      2      3       3      9    10       6         1.0          3.       15.120      0.001    -1.000    -1.000
+    9      1      1       1     -1    -1       8         3.0        424.        1.350      7.470    -1.000    -1.000
+   10      1      1       2     -1    -1       8         2.0        300.        1.800      4.500    -1.000    -1.000
+ 
+ ** NOTES **
+ 
+ - COLUMNS 1 THROUGH 11 ARE COMPUTED BY PROGRAM RASBIN
+   COLUMNS 12 AND 13 ARE COMPUTED BY PROGRAM PARAM.
+ 
+ - THE FIRST LINE OF DATA DOES NOT REPRESENT A CHANNEL LINK.  IT REPRESENTS
+   THE WATERSHED OUTLET NODE.
+ 
+ - THE UPSTREAM AREA INTO FIRST ORDER CHANNELS IS THE SOURCE INFLOW.
+   IN THE ABOVE TABLE THE SOURCE INFLOW IS NOT INCLUDED IN THE DIRECT DRAINAGE
+   AREA OF THE FIRST ORDER CHANNELS.
+ 

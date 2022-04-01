@@ -1,0 +1,342 @@
+ TOPAZ SOFTWARE: TOPOGRAPHIC PARAMETERIZATION SOFTWARE SYSTEM
+ PROGRAM NSSTAT: NETWORK AND SUBCATCHMENT STATISTICS
+                 VERSION 3.10, APRIL 1999
+ 
+ J. GARBRECHT, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ L. MARTZ, UNIVERSITY OF SASKATCHEWAN, SASKATOON, CANADA.
+ J. CAMPBELL, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ 
+ 
+ TITLE OF CURRENT TOPAZ APPLICATION:
+ 
+  DATE: 23 AUGUST 1999        DEDNM VERSION 3.1
+  APPLICATION FOR TESTING AND VERIFICATION; INPUT FILE "VARIABLE".
+  TESTING AND CALIBRATION.
+ 
+ 
+*******************************************************************************
+*******************************************************************************
+***                                                                         ***
+***   STATISTICS OF PARAMETERS DERIVED FROM THE DRAINAGE NETWORK TABLES:    ***
+***   "NETW.TAB AND NETWB.TAB"                                              ***
+***                                                                         ***
+*******************************************************************************
+*******************************************************************************
+ 
+ 
+ NOTE: - FIRST/SECOND COLUMN REFERS TO THE RASTER/BINARY NETWORK,RESPECTIVELY.
+       - VALUE OF -1 INDICATES TERM NOT APPLICABLE.
+       - EXT. AND INT. STAND FOR EXTERNAL AND INTERNAL, RESPECTIVELY.
+       - DD. STANDS FOR DRAINAGE DENSITY.
+ 
+ 
+*******************************************************************************
+ 
+*****   GENERAL INFORMATION
+ 
+ SIZE OF A CELL IN METERS:    30.00       -1
+ AREA OF A CELL IN HECTARES:       0.0900       -1
+ NUMBER OF CHANNEL LINKS IN NETW.TAB AND NETWB.TAB:    19    19
+ LARGEST STRAHLER ORDER OF ALL DEFINED CHANNEL LINKS:  3     3
+ THE WATERSHED OUTLET IS NOT A SIMPLE OR COMPLEX JUNCTION.
+ DRAINAGE NETWORK STRAHLER ORDER AT THE OUTLET NODE:  3     3
+ 
+ 
+*******************************************************************************
+ 
+*****   NUMBER OF CHANNELS AND CHANNEL LINKS (SEE NOTE 1)
+ 
+ NUMBER OF ADDITIONAL CHANNEL LINKS IN THE BINARY NETWORK (SEE NOTE 3):   0   0
+ 
+ NUMBER OF CHANNEL LINKS IN EACH CHANNEL ORDER:
+    1 ORDER CHANNEL LINKS:   10   10
+    2 ORDER CHANNEL LINKS:    5    5
+    3 ORDER CHANNEL LINKS:    4    4
+ 
+ TOTAL NUMBER OF EXT. LINKS:       10   10
+ TOTAL NUMBER OF INT. LINKS:        9    9
+ TOTAL NUMBER OF CHANNEL LINKS:    19   19
+ 
+ NUMBER OF CHANNELS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNELS:   10   10
+    2 ORDER CHANNELS:    3    3
+    3 ORDER CHANNELS:    1    1
+ 
+ 
+*******************************************************************************
+*****   LENGTH OF CHANNELS AND CHANNEL LINKS IN METERS (SEE NOTE 1 AND 2)
+ 
+ MEAN CHANNEL LINK LENGTH IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL LINKS:     215.4       215.4
+                          [    114.5] [    114.5]
+    2 ORDER CHANNEL LINKS:     189.3       189.3
+                          [     93.7] [     93.7]
+    3 ORDER CHANNEL LINKS:      94.9        94.9
+                          [     62.3] [     62.3]
+ 
+ MINIMUM AND MAXIMUM CHANNEL LINK LENGTH IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL LINKS:      42.4       402.4      42.4     402.4
+    2 ORDER CHANNEL LINKS:      30.0       254.6      30.0     254.6
+    3 ORDER CHANNEL LINKS:      30.0       169.7      30.0     169.7
+ 
+ MEAN EXT. LINK LENGTH:          215.4         215.4
+                            [    114.5]   [    114.5]
+ MEAN INT. LINK LENGTH:          147.4         147.4
+                            [     91.2]   [     91.2]
+ MEAN CHANNEL LINK LENGTH:       183.2         183.2
+                            [    107.1]   [    107.1]
+ 
+ TOTAL LENGTH OF EXT. CHANNELS:        2154.0     2154.0
+ TOTAL LENGTH OF INT. CHANNELS:        1326.4     1326.4
+ TOTAL CHANNEL LENGTH IN THE BASIN:    3480.4      3480.4
+ RATIO OF TOTAL EXT. TO INT. CHANNEL LENGTHS :       1.6239    1.6239
+ RATIO OF TOTAL EXT. TO TOTAL CHANNEL LENGTH:        0.6189    0.6189
+ RATIO OF TOTAL INT. TO TOTAL CHANNEL LENGTH:        0.3811    0.3811
+ 
+ MEAN CHANNEL LENGTH BY STRAHLER ORDER IN METERS:
+    1 ORDER CHANNELS:    215.40       215.40
+                     [   114.52]  [   114.52]
+    2 ORDER CHANNELS:    315.56       315.56
+                     [   118.50]  [   118.50]
+    3 ORDER CHANNELS:    379.71       379.71
+                     [     0.00]  [     0.00]
+ 
+ TOTAL CHANNEL LENGTH IN EACH STRAHLER ORDER IN METERS:
+    1 ORDER CHANNELS:   2153.97     2153.97
+    2 ORDER CHANNELS:    946.69      946.69
+    3 ORDER CHANNELS:    379.71      379.71
+ 
+ 
+*******************************************************************************
+*****   ELEVATION OF CHANNELS AND CHANNEL LINKS IN METERS (SEE NOTE 1 AND 2)
+ 
+ MEAN ELEVATION OF UPPER AND LOWER END OF CHANNEL LINKS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL LINKS:      4.00         2.50       4.00       2.50
+                          [     1.94]  [     0.85][     1.94][     0.85]
+    2 ORDER CHANNEL LINKS:      2.80         2.20       2.80       2.20
+                          [     0.45]  [     0.45][     0.45][     0.45]
+    3 ORDER CHANNEL LINKS:      1.50         1.25       1.50       1.25
+                          [     0.58]  [     0.50][     0.58][     0.50]
+ 
+ MEAN ELEVATION OF UPPER AND LOWER END:
+   EXT. LINKS:             4.00         2.50         4.00       2.50
+                     [     1.94]  [     0.85]  [     1.94][     0.85]
+   INT. LINKS:             2.22         1.78         2.22       1.78
+                     [     0.83]  [     0.67]  [     0.83][     0.67]
+   ALL CHANNEL LINKS:      3.16         2.16         3.16       2.16
+                     [     1.74]  [     0.83]  [     1.74][     0.83]
+ 
+ MAXIMUM ELEVATION DROP FROM SOURCE TO OUTLET:         8.00        8.00
+ MEAN ELEVATION DROP FROM SOURCE TO OUTLET:            3.00        3.00
+ MEAN ELEVATION DROP OF EXT. CHANNEL LINKS:            1.50        1.50
+ MEAN ELEVATION DROP OF INT. CHANNEL LINKS:            0.44        0.44
+ 
+ RATIO OF ELEVATION DROP OF EXT. TO INT. CHANNEL LINKS:       3.3748   3.3748
+ RATIO OF ELEVATION DROP OF EXT. TO MEAN SOURCE TO OUTLET:    0.5000   0.5000
+ RATIO OF ELEVATION DROP OF INT. TO MEAN SOURCE TO OUTLET:    0.1482   0.1482
+ 
+ MEAN ELEVATION OF UPPER AND LOWER END OF CHANNELS BY STRAHLER ORDER:
+    1 ORDER CHANNELS:      4.00       2.50       4.00       2.50
+                     [     1.94][     0.85][     1.94][     0.85]
+    2 ORDER CHANNELS:      3.00       2.00       3.00       2.00
+                     [     0.00][     0.00][     0.00][     0.00]
+    3 ORDER CHANNELS:      2.00       1.00       2.00       1.00
+                     [     0.00][     0.00][     0.00][     0.00]
+ 
+ 
+*******************************************************************************
+*****   SLOPE OF CHANNELS AND CHANNEL LINKS (SEE NOTE 1 AND 2)
+ 
+ MEAN CHANNEL SLOPE OF THE CHANNEL LINKS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL LINKS:   0.62647E-02    0.62647E-02
+                          [  0.61599E-02][  0.61599E-02]
+    2 ORDER CHANNEL LINKS:   0.24453E-02    0.24453E-02
+                          [  0.22335E-02][  0.22335E-02]
+    3 ORDER CHANNEL LINKS:   0.83327E-02    0.83327E-02
+                          [  0.16664E-01][  0.16664E-01]
+ 
+ MEAN SLOPE OF EXT. CHANNEL LINKS:   0.62647E-02    0.62647E-02
+                                  [  0.61599E-02][  0.61599E-02]
+ MEAN SLOPE OF INT. CHANNEL LINKS:   0.50620E-02    0.50620E-02
+                                  [  0.10782E-01][  0.10782E-01]
+ MEAN SLOPE OF ALL CHANNEL LINKS:    0.56950E-02    0.56950E-02
+                                  [  0.84276E-02][  0.84276E-02]
+ 
+ MEAN SLOPE OF THE CHANNELS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNELS:   0.62647E-02    0.62647E-02
+                     [  0.61599E-02][  0.61599E-02]
+    2 ORDER CHANNELS:   0.34358E-02    0.34358E-02
+                     [  0.10665E-02][  0.10665E-02]
+    3 ORDER CHANNELS:   0.26338E-02    0.26338E-02
+                     [  0.00000E+00][  0.00000E+00]
+ 
+ 
+*******************************************************************************
+*****   LENGTH WEIGHTED SLOPE OF CHANNELS AND CHANNEL LINKS (SEE NOTE 1 AND 2)
+ 
+ MEAN WEIGHTED CHANNEL SLOPE OF THE CHANNEL LINKS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL LINKS:   0.69639E-02    0.69639E-02
+                          [  0.67224E-02][  0.67224E-02]
+    2 ORDER CHANNEL LINKS:   0.31692E-02    0.31692E-02
+                          [  0.16943E-02][  0.16943E-02]
+    3 ORDER CHANNEL LINKS:   0.26338E-02    0.26338E-02
+                          [  0.89905E-02][  0.89905E-02]
+ 
+ MEAN WEIGHTED SLOPE OF EXT. CHANNEL LINKS:   0.69639E-02    0.69639E-02
+                                           [  0.67224E-02][  0.67224E-02]
+ MEAN WEIGHTED SLOPE OF INT. CHANNEL LINKS:   0.30159E-02    0.30159E-02
+                                           [  0.50246E-02][  0.50246E-02]
+ MEAN WEIGHTED SLOPE OF ALL CHANNEL LINKS:    0.54593E-02    0.54593E-02
+                                           [  0.64238E-02][  0.64238E-02]
+ RATIO OF WEIGHTED SLOPE OF EXT. TO INT. CHANNEL LINKS:   2.3091   2.3091
+ RATIO OF WEIGHTED SLOPE OF EXT. TO MEAN CHANNEL LINKS:   1.2756   1.2756
+ RATIO OF WEIGHTED SLOPE OF INT. TO MEAN CHANNEL LINKS:   0.5524   0.5524
+ 
+ MEAN WEIGHTED SLOPE OF THE CHANNELS IN EACH STRAHLER ORDER.
+    1 ORDER CHANNELS:   0.69639E-02    0.69639E-02
+                     [  0.67224E-02][  0.67224E-02]
+    2 ORDER CHANNELS:   0.31692E-02    0.31692E-02
+                     [  0.91919E-03][  0.91919E-03]
+    3 ORDER CHANNELS:   0.26338E-02    0.26338E-02
+                     [  0.00000E+00][  0.00000E+00]
+ 
+ 
+*******************************************************************************
+*****   DIRECT AND TOTAL DRAINAGE AREAS IN HECTARES (SEE NOTE 1 AND 2)
+ 
+ MEAN DIRECT DRAINAGE AREA INTO CHANNEL LINKS:
+    1 ORDER CHANNEL LINKS:      3.73       3.73
+                          [     1.34][     1.34]
+    2 ORDER CHANNEL LINKS:      2.30       2.30
+                          [     1.20][     1.20]
+    3 ORDER CHANNEL LINKS:      1.53       1.53
+                          [     1.30][     1.30]
+ 
+ MEAN SIZE OF DRAINAGE AREA INTO:
+   SOURCE NODES:           1.42       1.42
+                     [     0.41][     0.41]
+   EXT. LINKS:             3.73       3.73
+                     [     1.34][     1.34]
+   INT. LINKS:             1.96       1.96
+                     [     1.23][     1.23]
+   ALL CHANNEL LINKS       2.89       2.89
+                     [     1.55][     1.55]
+ 
+ TOTAL WATERSHED DRAINAGE AREA:                             54.99        54.99
+ TOTAL DIRECT DRAINAGE AREA INTO SOURCE NODES:              14.22        14.22
+ TOTAL DIRECT DRAINAGE AREA INTO EXT. LINKS:                37.35        37.35
+ TOTAL DIRECT DRAINAGE AREA INTO INT. LINKS:                17.64        17.64
+ RATIO OF DRAINAGE AREA OF EXT. TO INT. CHANNEL LINKS:         2.1173    2.1173
+ RATIO OF DRAINAGE AREA OF EXT. CHANNELS TO WATERSHED AREA:    0.6792    0.6792
+ RATIO OF DRAINAGE AREA OF INT. CHANNELS TO WATERSHED AREA:    0.3208    0.3208
+ 
+ MEAN DRAINAGE AREA AT THE DOWNSTREAM END OF EACH STRAHLER CHANNEL ORDER:
+    1 ORDER CHANNEL:       3.73        3.73
+                    [      1.34][      1.34]
+    2 ORDER CHANNEL:      12.78       12.78
+                    [      7.33][      7.33]
+    3 ORDER CHANNEL:      54.99       54.99
+                    [      0.00][      0.00]
+ 
+ MEAN DRAINAGE AREA AT THE TOP OF EACH STRAHLER CHANNEL ORDER (SEE NOTE 5):
+    1 ORDER CHANNEL:       1.42        1.42
+                    [      0.41][      0.41]
+    2 ORDER CHANNEL:       6.72        6.72
+                    [      1.92][      1.92]
+    3 ORDER CHANNEL:      17.10       17.10
+                    [      0.00][      0.00]
+ 
+ 
+*******************************************************************************
+*****   DRAINAGE DENSITY IN 1 / METERS (SEE NOTE 1, 2 AND 4)
+ 
+ MEAN DD. OF CHANNEL LINKS BY STRAHLER ORDER:
+    1 ORDER CHANNEL:  0.55039E-02    0.55039E-02
+                   [  0.19092E-02][  0.19092E-02]
+    2 ORDER CHANNEL:  0.98511E-02    0.98511E-02
+                   [  0.40323E-02][  0.40323E-02]
+    3 ORDER CHANNEL:  0.77231E-02    0.77231E-02
+                   [  0.25865E-02][  0.25865E-02]
+ 
+ MEAN DD. OF EXT. CHANNEL LINKS:  0.55039E-02    0.55039E-02
+                               [  0.19092E-02][  0.19092E-02]
+ MEAN DD. OF INT. CHANNEL LINKS:  0.89053E-02    0.89053E-02
+                               [  0.34491E-02][  0.34491E-02]
+ MEAN TOTAL DD.:                  0.71151E-02    0.71151E-02
+                               [  0.31866E-02][  0.31866E-02]
+ 
+ OVERALL DD. OF EXT. CHANNEL LINKS:  0.57670E-02  0.57670E-02
+ OVERALL DD. OF INT. CHANNEL LINKS:  0.75193E-02  0.75193E-02
+ OVERALL TOTAL DD.:                  0.63291E-02  0.63291E-02
+ RATIO OF OVERALL DD. OF EXT. TO INT. CHANNEL LINKS:      0.7670  0.7670
+ RATIO OF OVERALL DD. OF EXT. CHANNELS TO TOTAL DENSITY:  0.9112  0.9112
+ RATIO OF OVERALL DD. OF INT. CHANNELS TO TOTAL DENSITY:  1.1880  1.1880
+ 
+ OVERALL DD. BY STRAHLER ORDER:
+    1 ORDER CHANNEL:  0.57670E-02  0.57670E-02
+    2 ORDER CHANNEL:  0.82178E-02  0.82178E-02
+    3 ORDER CHANNEL:  0.62043E-02  0.62043E-02
+ 
+ 
+*******************************************************************************
+*****   CHANNEL LINK SINUOSITY
+ 
+ MEAN CHANNEL SINUOSITY OF ALL CHANNEL LINKS:    1.0850    -1
+                                               [ 0.1921]
+ MEAN CHANNEL SINUOSITY OF EXT. CHANNEL LINKS :  1.1248    -1
+                                               [ 0.2435]
+ MEAN CHANNEL SINUOSITY OF INT. CHANNEL LINKS :  1.0407    -1
+                                               [ 0.1103]
+ 
+ 
+*******************************************************************************
+*****   SIMPLIFIED DRAINAGE NETWORK COMPOSITION(SEE NOTE 1 AND 2)
+ 
+ BIFURCATION RATIO:    3.1667    3.1667
+ LENGTH RATIO:         0.7568    0.7568
+ SLOPE RATIO:          1.7003    1.7003
+ AREA RATIO:           0.2623    0.2623
+ 
+ 
+ NOTE 1: - FOR THE CONDITION WHERE THE WATERSHED OUTLET IS A SIMPLE
+           OR COMPLEX JUNCTION, AN ADDITIONAL SHORT CHANNEL LINK AND
+           CORRESPONDING OUTLET NODE (WITHOUT A JUNCTION) IS ADDED AT THE
+           WATERSHED OUTLET OF THE BINARY NETWORK.  AS A, RESULT THE TOTAL
+           LENGTH OF THE INT. CHANNELS AND OF THE NETWORK IS SLIGHTLY LONGER,
+           AND TOTAL DRAINAGE AREA IS SLIGHTLY LARGER.  PARAMETERS DERIVED FROM
+           CHANNEL LENGTH AND AREA VALUES, SUCH AS DRAINAGE DENSITY OR SLOPE,
+           MAY, AS A RESULT, ALSO DISPLAY A SLIGHT DIFFERENCE WHEN COMPARED
+           TO THE RASTER NETWORK.
+           FOR THE CONDITION WHERE THE WATERSHED OUTLET IS A COMPLEX JUNCTION,
+           ONE OR SEVERAL ADDITIONAL SHORT CHANNEL LINKS BEYOND THE ONE JUST
+           DESCRIBED MAY BE REQUIRED BY THE STRUCTURE OF THE COMPLEX JUNCTION.
+           THE SUMMATION OF ALL THE SHORT CHANNEL LINKS AND CORRESPONDING
+           DRAINAGE AREAS THAT ARE CREATED AS DESCRIBED IN THIS NOTE 1
+           WILL ALWAYS BE LESS THAN THAT OF ONE RASTER CELL.
+ 
+ NOTE 2: - NUMBER OF CHANNEL LINKS, LENGTH, ELEVATION, SLOPE, DRAINAGE AREA,
+           DENSITY, AND NETWORK COMPOSITION VALUES ARE AFFECTED BY THE NUMBER
+           OF ADDITIONAL CHANNEL LINKS DUE TO THE DECOMPOSITION OF COMPLEX
+           JUNCTIONS INTO A SEQENCE OF SIMPLE JUNCTIONS.
+ 
+ NOTE 3: - THE ADDITIONAL CHANNEL LINKS ARE CREATED DUE TO:
+           A) THE DECOMPOSITION OF COMPLEX JUNCTIONS INTO A SEQUENCE
+              OF SIMPLE JUNCTIONS; AND,
+           B) THE PRESENCE OF A COMPLEX OR SIMPLE JUNCTION AT THE OUTLET AS
+              DISCUSSED IN NOTE 1.
+           THE FIRST VALUE GIVEN IS THE NUMBER OF ADDITIONAL CHANNEL LINKS
+           ESTIMATED FROM THE RASTER NETWORK, AND THE SECOND VALUE IS THE
+           ACTUAL NUMBER OF ADDITIONAL CHANNEL LINKS IN THE BINARY NETWORK.
+ 
+ NOTE 4: - OVERALL DRAINAGE DENSITY REFERS TO TOTAL CHANNEL LENGTH DIVIDED BY
+           CORRESPONDING TOTAL DIRECT DRAINAGE AREA.  OVERALL DRAINAGE DENSITY
+           CORRESPONDS TO THE MEAN OF THE AREA WEIGHTED DRAINAGE DENSITY OF THE
+           INDIVIDUAL CHANNEL LINKS.
+           MEAN DRAINAGE DENSITY REFERS TO THE AVERAGE OF THE INDIVIDUAL
+           CHANNEL LINK LENGTHS OVER CORRESPONDING DIRECT DRAINAGE AREAS.
+ 
+ NOTE 5: - UPSTREAM DRAINAGE AREA FOR FIRST ORDER CHANNELS INCLUDES SOURCE
+           AREA ONLY; FOR ALL OTHER ORDER CHANNELS THE UPSTREAM AREA IS THAT
+           DEFINED BY THE TWO UPSTREAM INFLOW CHANNELS; IT DOES NOT INCLUDE THE
+           DIRECT OVERLAND AREA FLOWING DIRECTLY INTO THE UPSTREAM NODE OF THE
+           CHANNEL LINK.

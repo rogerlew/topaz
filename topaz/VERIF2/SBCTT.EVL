@@ -1,0 +1,214 @@
+ TOPAZ SOFTWARE: TOPOGRAPHIC PARAMETERIZATION SOFTWARE SYSTEM
+ PROGRAM NSSTAT: NETWORK AND SUBCATCHMENT STATISTICS
+                 VERSION 3.10, APRIL 1999
+ 
+ J. GARBRECHT, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ L. MARTZ, UNIVERSITY OF SASKATCHEWAN, SASKATOON, CANADA.
+ J. CAMPBELL, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ 
+ 
+ TITLE OF CURRENT TOPAZ APPLICATION:
+ 
+  DATE: 23 AUGUST 1999        DEDNM VERSION 3.1
+  APPLICATION FOR TESTING AND VERIFICATION; INPUT FILE "VARIABLE".
+  TESTING AND CALIBRATION.
+ 
+ 
+*******************************************************************************
+*******************************************************************************
+***                                                                         ***
+***    STATISTICS OF PARAMETERS DERIVED FROM THE SUBCATCHMENT TABLES:       ***
+***    SBCT.TAB AND SBCTB.TAB                                               ***
+***                                                                         ***
+*******************************************************************************
+*******************************************************************************
+ 
+ 
+ NOTE: - FIRST/SECOND COLUMN REFERS TO THE RASTER/BINARY NETWORK,RESPECTIVELY.
+       - VALUE OF -1 INDICATES TERM NOT APPLICABLE.
+       - EXT. AND INT. STAND FOR EXTERNAL AND INTERNAL, RESPECTIVELY.
+ 
+ 
+*******************************************************************************
+*****   GENERAL INFORMATION
+ 
+ SIZE OF A CELL IN METERS:    30.00       -1
+ AREA OF A CELL IN HECTARES:       0.0900       -1
+ NUMBER OF CHANNEL LINKS IN NETW.TAB AND NETWB.TAB:    19    19
+ LARGEST STRAHLER ORDER OF ALL DEFINED CHANNEL LINKS:  3     3
+ THE WATERSHED OUTLET IS NOT A SIMPLE OR COMPLEX JUNCTION.
+ DRAINAGE NETWORK STRAHLER ORDER AT THE OUTLET NODE:  3     3
+ 
+ 
+*******************************************************************************
+*****   SUBCATCHMENT DRAINAGE AREAS
+ 
+ MEAN DIRECT DRAINAGE AREA INTO CHANNEL LINKS:
+    1 ORDER CHANNEL LINKS:      3.73       3.73
+                          [     1.34][     1.34]
+    2 ORDER CHANNEL LINKS:      2.30       2.30
+                          [     1.20][     1.20]
+    3 ORDER CHANNEL LINKS:      1.53       1.53
+                          [     1.30][     1.30]
+ 
+   EXT. LINKS:             3.73       3.73
+                     [     1.34][     1.34]
+   INT. LINKS:             1.96       1.96
+                     [     1.23][     1.23]
+   ALL CHANNEL LINKS       2.89       2.89
+                     [     1.55][     1.55]
+ 
+ TOTAL WATERSHED DRAINAGE AREA:                      54.99        54.99
+ TOTAL DIRECT DRAINAGE AREA INTO EXT. LINKS:         37.35        37.35
+ TOTAL DIRECT DRAINAGE AREA INTO INT. LINKS:         17.64        17.64
+ 
+ MEAN DIRECT DRAINAGE AREA FOR THE CHANNELS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL:       3.73        3.73
+                    [      1.34][      1.34]
+    2 ORDER CHANNEL:       3.84        3.84
+                    [      1.59][      1.59]
+    3 ORDER CHANNEL:       6.12        6.12
+                    [      0.00][      0.00]
+ 
+ 
+*******************************************************************************
+*****   CHANNEL DRAINAGE AREA  (SEE NOTE 3)
+ 
+ MEAN CHANNEL DRAINAGE AREA OF CHANNEL LINKS:
+    1 ORDER CHANNEL LINKS:      0.59      -1.00
+                          [     0.35][    -1.00]
+    2 ORDER CHANNEL LINKS:      0.49      -1.00
+                          [     0.23][    -1.00]
+    3 ORDER CHANNEL LINKS:      0.25      -1.00
+                          [     0.13][    -1.00]
+ 
+   EXT. LINKS:             0.59      -1.00
+                     [     0.35][    -1.00]
+   INT. LINKS:             0.38      -1.00
+                     [     0.22][    -1.00]
+   ALL CHANNEL LINKS       0.49      -1.00
+                     [     0.31][    -1.00]
+ 
+ TOTAL CHANNEL DRAINAGE AREA:                        9.36        -1.00
+ TOTAL CHANNEL DRAINAGE AREA OF EXT. LINKS:          5.94        -1.00
+ TOTAL CHANNEL DRAINAGE AREA OF INT. LINKS:          3.42        -1.00
+ 
+ MEAN CHANNEL DRAINAGE AREA OF THE CHANNELS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL:       0.59       -1.00
+                    [      0.35][     -1.00]
+    2 ORDER CHANNEL:       0.81       -1.00
+                    [      0.32][     -1.00]
+    3 ORDER CHANNEL:       0.99       -1.00
+                    [      0.00][     -1.00]
+ 
+ 
+*******************************************************************************
+*****   RIGHT DRAINAGE AREA
+ 
+ MEAN RIGHT SIDE DRAINAGE AREA INTO CHANNEL LINKS:
+    1 ORDER CHANNEL LINKS:      0.85       1.14
+                          [     0.92][     1.06]
+    2 ORDER CHANNEL LINKS:      0.94       1.18
+                          [     0.61][     0.68]
+    3 ORDER CHANNEL LINKS:      0.34       0.46
+                          [     0.31][     0.37]
+ 
+   EXT. LINKS:             0.85       1.14
+                     [     0.92][     1.06]
+   INT. LINKS:             0.67       0.86
+                     [     0.57][     0.65]
+   ALL CHANNEL LINKS       0.76       1.01
+                     [     0.76][     0.88]
+ 
+ TOTAL RIGHT SIDE DRAINAGE AREA:                         14.49        19.17
+ TOTAL RIGHT SIDE DRAINAGE AREA INTO EXT. LINKS:          8.46        11.43
+ TOTAL RIGHT SIDE DRAINAGE AREA INTO INT. LINKS:          6.03         7.74
+ 
+ MEAN RIGHT SIDE DRAINAGE AREA FOR THE CHANNELS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL:       0.85        1.14
+                    [      0.92][      1.06]
+    2 ORDER CHANNEL:       1.56        1.96
+                    [      1.04][      1.16]
+    3 ORDER CHANNEL:       1.35        1.84
+                    [      0.00][      0.00]
+ 
+ 
+*******************************************************************************
+*****   LEFT DRAINAGE AREA
+ 
+ MEAN LEFT SIDE DRAINAGE AREA INTO CHANNEL LINKS:
+    1 ORDER CHANNEL LINKS:      0.87       1.17
+                          [     0.46][     0.61]
+    2 ORDER CHANNEL LINKS:      0.88       1.12
+                          [     0.61][     0.72]
+    3 ORDER CHANNEL LINKS:      0.94       1.07
+                          [     0.87][     0.94]
+ 
+   EXT. LINKS:             0.87       1.17
+                     [     0.46][     0.61]
+   INT. LINKS:             0.91       1.10
+                     [     0.69][     0.77]
+   ALL CHANNEL LINKS       0.89       1.14
+                     [     0.56][     0.67]
+ 
+ TOTAL LEFT SIDE DRAINAGE AREA:                         16.92        21.60
+ TOTAL LEFT SIDE DRAINAGE AREA INTO EXT. LINKS:          8.73        11.70
+ TOTAL LEFT SIDE DRAINAGE AREA INTO INT. LINKS:          8.19         9.90
+ 
+ MEAN LEFT SIDE DRAINAGE AREA FOR THE CHANNELS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL:       0.87        1.17
+                    [      0.46][      0.61]
+    2 ORDER CHANNEL:       1.47        1.87
+                    [      0.58][      0.72]
+    3 ORDER CHANNEL:       3.78        4.27
+                    [      0.00][      0.00]
+ 
+ 
+*******************************************************************************
+*****   SOURCE DRAINAGE AREA
+ 
+ MEAN SOURCE DRAINAGE AREA INTO CHANNEL LINKS:
+    1 ORDER CHANNEL LINKS:      1.42       1.42
+                          [     0.41][     0.41]
+ 
+   EXT. LINKS:             1.42       1.42
+                     [     0.41][     0.41]
+   INT. LINKS:            -1.00      -1.00
+                     [    -1.00][    -1.00]
+   ALL CHANNEL LINKS       0.75       0.75
+                     [     0.83][     1.37]
+ 
+ TOTAL SOURCE DRAINAGE AREA:                         14.22        14.22
+ TOTAL SOURCE DRAINAGE AREA INTO EXT. LINKS:         14.22        14.22
+ TOTAL SOURCE DRAINAGE AREA INTO INT. LINKS:         -1.00        -1.00
+ 
+ MEAN SOURCE DRAINAGE AREA FOR THE CHANNELS IN EACH STRAHLER ORDER:
+    1 ORDER CHANNEL:       1.42        1.42
+                    [      2.59][      0.41]
+ 
+ 
+ NOTE 1: - FOR THE CONDITION WHERE THE WATERSHED OUTLET IS A SIMPLE
+           OR COMPLEX JUNCTION, AN ADDITIONAL SHORT CHANNEL LINK AND
+           CORRESPONDING OUTLET NODE (WITHOUT A JUNCTION) IS ADDED AT THE
+           WATERSHED OUTLET OF THE BINARY NETWORK.  AS A, RESULT THE TOTAL
+           LENGTH OF THE INT. CHANNELS AND OF THE NETWORK IS SLIGHTLY LONGER,
+           AND TOTAL DRAINAGE AREA IS SLIGHTLY LARGER.  PARAMETERS DERIVED FROM
+           CHANNEL LENGTH AND AREA VALUES, SUCH AS DRAINAGE DENSITY OR SLOPE,
+           MAY, AS A RESULT, ALSO DISPLAY A SLIGHT DIFFERENCE WHEN COMPARED
+           TO THE RASTER NETWORK.
+           FOR THE CONDITION WHERE THE WATERSHED OUTLET IS A COMPLEX JUNCTION,
+           ONE OR SEVERAL ADDITIONAL SHORT CHANNEL LINKS BEYOND THE ONE JUST
+           DESCRIBED MAY BE REQUIRED BY THE STRUCTURE OF THE COMPLEX JUNCTION.
+           THE SUMMATION OF ALL THE SHORT CHANNEL LINKS AND CORRESPONDING
+           DRAINAGE AREAS THAT ARE CREATED AS DESCRIBED IN THIS NOTE 1
+           WILL ALWAYS BE LESS THAN THAT OF ONE RASTER CELL.
+ 
+ NOTE 2: - NUMBER OF CHANNEL LINKS, LENGTH, ELEVATION, SLOPE, DRAINAGE AREA,
+           DENSITY, AND NETWORK COMPOSITION VALUES ARE AFFECTED BY THE NUMBER
+           OF ADDITIONAL CHANNEL LINKS DUE TO THE DECOMPOSITION OF COMPLEX
+           JUNCTIONS INTO A SEQENCE OF SIMPLE JUNCTIONS.
+ 
+ 
+ NOTE 3: - CHANNEL SUBCATCHMENT AREA INCLUDES ONLY THE CELLS DEFINING
+           THE CHANNEL ITSELF.  THE BINARY NETWORK HAS NO CHANNEL AREA
+           ASSOCIATED WITH IT.

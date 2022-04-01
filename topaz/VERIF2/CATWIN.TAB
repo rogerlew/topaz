@@ -1,0 +1,52 @@
+ TOPAZ SOFTWARE : TOPAZ PARAMETERIZATION SOFTWARE SYSTEM
+ PROGRAM DEDNM : DIGITAL ELEVATION DRAINAGE NETWORK MODEL PROGRAM
+                 VERSION 3.10, APRIL 1999
+ 
+ J. GARBRECHT, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ L. MARTZ, UNIVERSITY OF SASKATCHEWAN, SASKATOON, CANADA.
+ 
+ 
+ TITLE OF CURRENT TOPAZ APPLICATION:
+ 
+  DATE: 23 AUGUST 1999        DEDNM VERSION 3.1
+  APPLICATION FOR TESTING AND VERIFICATION; INPUT FILE "VARIABLE".
+  TESTING AND CALIBRATION.
+ 
+ 
+ 
+ TABLE OF RASTER-NETWORK SUBCATCHMENT WINDOW INFORMATION AS COMPUTED BY PROGRAM DEDNM
+ 
+ 
+ 
+ NOTE: FOR COMPLEX JUNCTION NODES ONLY THE  SUBCATCHMENT INFORMATION
+ PERTAINING TO THE FIRST NODE NUMBER IS GIVEN.  SUBSEQUENT NODES
+ ARE HYPOTHETICAL NODES AND HAVE NO CORRESPONDING SUBCATCHMENT INFORMATION.
+ 
+             SOURCE              RIGHT                LEFT              CHANNEL        RIGHT SUBCATCHMENT  LEFT SUBCATCHMENT
+        SUBCATCHMENT AREA   SUBCATCHMENT AREA   SUBCATCHMENT AREA         AREA          AND CHANNEL AREA   AND CHANNEL AREA
+NODE   MIN  MIN  MAX  MAX  MIN  MIN  MAX  MAX  MIN  MIN  MAX  MAX  MIN  MIN  MAX  MAX  MIN  MIN  MAX  MAX  MIN  MIN  MAX  MAX
+NUMBER ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL  ROW  COL
+-----------------------------------------------------------------------------------------------------------------------------
+ 
+   17    1   30    3   34    3   33    4   34    1   34    6   36    2   33    5   35    2   33    5   35    1   33    6   36
+   11    3    5    5   13    6    6    8    8    6   10    8   13    5    9    9   10    5    6    9   10    5    9    9   13
+   13    3   19    5   24    6   20   12   21    6   23   13   24    5   22   14   22    5   20   14   22    5   22   14   24
+   16    5   25    8   28    3   28    5   30    1   25    4   32    2   27    5   31    2   27    5   31    1   25    5   32
+   12    5   14    9   19   -1   -1   -1   -1   -1   -1   -1   -1    9   17    9   17    9   17    9   17    9   17    9   17
+   10    8    1   13    3   11    4   15    9    6    4    9    9   10    3   10    9   10    3   15    9    6    3   10    9
+   19    8   31   11   36   10   34   10   34   11   35   11   35   10   34   11   35   10   34   11   35   10   34   11   35
+    5   14    7   17   11   17   12   17   20   14   12   15   20   16   11   17   21   16   11   17   21   14   11   17   21
+    3   15    5   18    8   19    6   21   20   18   10   18   20   18    9   19   21   18    6   21   21   18    9   19   21
+   20   18   29   21   35   13   35   17   35   14   30   17   33   13   34   18   34   13   34   18   35   13   30   18   34
+   15   -1   -1   -1   -1    5   25   10   32    6   28   11   34    6   27   11   32    5   25   11   32    6   27   11   34
+    9   -1   -1   -1   -1   11   10   13   15    7   11    9   15   10   10   10   15   10   10   13   15    7   10   10   15
+    8   -1   -1   -1   -1    9   14   14   19   10   17   13   21   10   16   14   21    9   14   14   21   10   16   14   21
+    7   -1   -1   -1   -1   15   21   15   21   -1   -1   -1   -1   15   22   15   22   15   21   15   22   15   22   15   22
+   18   -1   -1   -1   -1   11   29   12   35   13   27   16   33   12   27   12   34   11   27   12   35   12   27   16   34
+   14   -1   -1   -1   -1   10   23   14   26   13   24   19   29   12   23   15   26   10   23   15   26   12   23   19   29
+    6   -1   -1   -1   -1   16   21   16   21   16   23   16   23   16   22   16   22   16   21   16   22   16   22   16   23
+    4   -1   -1   -1   -1   18   21   18   21   17   23   18   25   17   22   18   22   17   21   18   22   17   22   18   25
+    2   -1   -1   -1   -1   20   20   22   21   19   23   22   26   19   22   22   22   19   20   22   22   19   22   22   26
+    1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1
+--------------------------------------------------------------------------------------------------------------------------------
+ 

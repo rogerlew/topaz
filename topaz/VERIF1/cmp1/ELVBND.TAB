@@ -1,0 +1,52 @@
+ TOPAZ SOFTWARE: TOPOGRAPHIC PARAMETERIZATION SOFTWARE SYSTEM                  
+ PROGRAM RASPRO: RASTER PROCESSING PROGRAM                                     
+                 VERSION 3.10, APRIL 1999                                      
+
+ J. GARBRECHT, USDA-ARS, EL RENO, OKLAHOMA, USA.                               
+ L. MARTZ, UNIVERSITY OF SASKATCHEWAN, SASKATOON, CANADA.                      
+
+
+ TITLE OF CURRENT TOPAZ APPLICATION:
+
+  DATE: 23 AUGUST 1999        DEDNM VERSION 3.1                                
+  APPLICATION FOR TESTING AND VERIFICATION; INPUT FILE "VARIABLE".             
+  TESTING AND CALIBRATION.                                                     
+
+
+
+ TABLE OF ELEVATION CLASS CHARACTERISTICS AS COMPUTED BY PROGRAM RASPRO
+
+
+        CLASS       BEGINNING VALUE   MEAN VALUE
+        NUMBER          OF CLASS       OF CLASS
+          1                 1.0             1.1
+          2                 1.3             1.4
+          3                 1.5             1.7
+          4                 1.8             1.9
+          5                 2.1             2.2
+          6                 2.3             2.5
+          7                 2.6             2.7
+          8                 2.9             3.0
+          9                 3.1             3.3
+         10                 3.4             3.5
+         11                 3.7             3.8
+         12                 3.9             4.1
+         13                 4.2             4.3
+         14                 4.5             4.6
+         15                 4.7             4.9
+         16                 5.0             5.1
+         17                 5.3             5.4
+         18                 5.5             5.7
+         19                 5.8             5.9
+         20                 6.1             6.2
+         21                 6.3             6.5
+         22                 6.6             6.7
+         23                 6.9             7.0
+         24                 7.1             7.3
+         25                 7.4             7.5
+         26                 7.7             7.8
+         27                 7.9             8.1
+         28                 8.2             8.3
+         29                 8.5             8.6
+         30                 8.7             8.9
+                            9.0

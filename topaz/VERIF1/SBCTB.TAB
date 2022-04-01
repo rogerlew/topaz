@@ -1,0 +1,45 @@
+ TOPAZ SOFTWARE: TOPOGRAPHIC PARAMETERIZATION SOFTWARE SYSTEM
+ PROGRAM RASBIN: RASTER-TO-BINARY TRANSFORMATION PROGRAM
+                 VERSION 3.10, APRIL 1999
+ 
+ J. GARBRECHT, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ L. MARTZ, UNIVERSITY OF SASKATCHEWAN, SASKATOON, CANADA.
+ J. CAMPBELL, USDA-ARS, EL RENO, OKLAHOMA, USA.
+ 
+ 
+ TITLE OF CURRENT TOPAZ APPLICATION:
+ 
+  DATE: 23 AUGUST 1999        DEDNM VERSION 3.1
+  APPLICATION FOR TESTING AND VERIFICATION; INPUT FILE "VARIABLE".
+  TESTING AND CALIBRATION.
+ 
+ 
+ 
+ TABLE OF BINARY-NETWORK SUBCATCHMENT INFORMATION AS COMPUTED BY MODULE RASBIN
+ 
+ 
+                       SUBCATCHMENT AREA IN HECTARES
+  NODE  CHAN.  NETW.  SOURCE   LEFT     RIGHT    TOTAL
+  INDEX ORDER  ADJ.    AREA    AREA     AREA     AREA
+--------------------------------------------------------
+                      ----------------------------------
+ 
+    1      2    0     0.00     0.00     0.00     0.00
+    2      2   -3       -1     0.94     0.94     1.89
+    3      1    0     0.99     3.24     6.21    10.44
+    4      2    1       -1     0.00     0.00     0.00
+    5      1    0     1.62     5.63     9.85    17.10
+    6      2    1       -1     0.00     0.00     0.00
+    7      1    0     0.99     2.16     2.16     5.31
+    8      2    1       -1     0.00     0.00     0.00
+    9      1    0     1.35     3.60     3.87     8.82
+   10      1    0     1.80     2.97     1.53     6.30
+ 
+ 
+ NOTE: - VALUES OF -1 INDICATE NOT APPLICABLE.
+ 
+       - THE ABOVE SUBCATCHMENT AREA VALUES ARE ROUNDED TO THE NEAREST
+         100TH OF A HECTARE.  THE FULL VALUE OF THE SUBCATCHMENT AREA
+         (TO THE LEVEL OF THE MACHINE PRECISION) IS RETAINED IN THE
+         UNFORMATTED FILE RBSCB.UNF.
+ 

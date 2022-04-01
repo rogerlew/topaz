@@ -1,0 +1,4 @@
+gfortran -o dednm dednm.f90
+gfortran -o rasbin rasbin.f90
+gfortran -o rasfor rasfor.f90
+gfortran -o raspro raspro.f90
