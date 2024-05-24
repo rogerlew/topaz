@@ -1,1 +1,5 @@
-# jimf-weppbuild-topaz
+# TOPAZ
+
+Author: Jurgen D. Garbrecht
+
+Repository maintained: Roger Lew
