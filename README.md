@@ -22,3 +22,4 @@ Likely compiled by Jurgen with ifc in 2003
 
 ## Docs
 
+[PDF Manual](https://github.com/rogerlew/topaz/blob/main/docs/TOPAZ_Overview-Manual2.pdf)
