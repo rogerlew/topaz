@@ -6,6 +6,10 @@ Repository maintained: Roger Lew
 
 ## Releases
 
+### arm64.mac
+
+Compiled for Apple Silicon
+
 ### libfortran5
 
 Compiled on Ubuntu 22.04 with gfortran. Executables used by https://wepp.cloud
