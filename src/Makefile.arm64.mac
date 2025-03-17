@@ -1,0 +1,21 @@
+all: dednm rasfor raspro rasbin 
+
+%.o : %.f90
+	gfortran -c $<
+
+dednm: dednm.o 
+	gfortran dednm.o -o dednm.arm64.mac
+
+raspro: raspro.o
+	gfortran raspro.o -o raspro.arm64.mac
+
+rasfor: rasfor.o
+	gfortran rasfor.o -o rasfor.arm64.mac
+
+rasbin: rasbin.o
+	gfortran rasbin.o -o rasbin.arm64.mac
+
+clean:
+	rm dednm.o rasfor.o raspro.o rasbin.o 
+	rm dednm.arm64.mac raspro.arm64.mac rasfor.arm64.mac rasbin.arm64.mac 
+
